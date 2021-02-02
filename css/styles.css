@@ -1,0 +1,430 @@
+/* reset und Body */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+video {
+    width: 100%;
+}
+
+audio {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    color: green;
+}
+
+body {
+    background-image: url('bg.png');
+    font-family: sans-serif;
+    margin: auto;
+    max-width: 1200px;
+}
+
+/*reset ende*/
+/*Start Navigation*/
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.8);
+    text-decoration: none;
+}
+
+nav li {
+    font-size: 25px;
+    padding: 0 2vh;
+}
+
+nav li:hover {
+    background-color: rgba(152, 251, 152, 0.8);
+}
+
+nav li:active {
+    background-color: white;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav li:hover {
+    color: white;
+}
+
+.form {
+    text-align: center;
+}
+
+form {
+    text-align: center;
+}
+
+.regUeber {
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+a[class="active"] {
+    color: rgb(152, 251, 152);
+}
+
+/*Ende Navigation*/
+/* Start Header*/
+header {
+    position: relative;
+
+
+}
+
+.headerBackground {
+    background-image: url('LogoUnbeschriftet.svg');
+    width: 100%;
+    padding-top: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.headerSchriftzug {
+    width: 100%;
+    height: auto;
+    position: absolute;
+    top: 0%;
+}
+
+.headerSchriftzug h1 {
+    color: white;
+    font-size: 12em;
+    text-align: center;
+}
+
+.headerSchriftzug h1:hover {
+    color: rgba(152, 251, 152, 0.8);
+}
+
+.fab,
+.fas {
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    top: 10%;
+}
+
+#socialMedia {
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#socialMedia i:hover {
+    color: rgba(152, 251, 152, 0.8);
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    padding: 4em;
+    border: 0.063em solid white;
+    box-sizing: border-box;
+    margin-top: 0.25em;
+    margin-bottom: 0.625em;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type=text] {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    border: 0.063em solid white;
+    box-sizing: border-box;
+    margin-top: 0.25em;
+    margin-bottom: 0.625em;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type=password] {
+    width: 100%;
+    height: 100%;
+    padding: 1em;
+    border: 0.063em solid white;
+    box-sizing: border-box;
+    margin-top: 0.25em;
+    margin-bottom: 0.625em;
+    resize: none;
+    overflow: hidden;
+    text-align: center;
+    font-size: 1em;
+}
+
+input[type=button] {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.75em 5em;
+    border: 0.063em solid #ccc;
+    cursor: pointer;
+    font-size: 1em;
+
+}
+label{
+    color: white;
+}
+input[type=button]:hover {
+    background-color: rgba(152, 251, 152, 0.8);
+    color: white;
+    box-shadow: 0 10px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.button-nav{
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 0.35em 1.5em;
+    border: 0.063em solid #ccc;
+    cursor: pointer;
+    font-size: 0.75em;  
+}
+.button-nav:hover{
+    background-color: rgba(152, 251, 152, 0.8);
+    color: white;
+    box-shadow: 0 10px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+.menu input{
+    padding:0.25em;
+    width: 30%;
+}
+
+:focus {
+    outline: none;
+}
+
+/*Ende Header*/
+/* Beginn Content*/
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flexDiv {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    ;
+}
+
+#ersterLinkerContent {
+    flex: 2;
+    padding: 3em;
+}
+
+#ersterRechterContent {
+    flex: 3;
+}
+
+.rechterContent {
+    flex: 4;
+}
+
+.linkerContent {
+    flex: 2;
+}
+
+main h2 {
+
+    padding: 0.5em;
+    color: white;
+    text-align: center;
+}
+
+main h3 {
+    font-size: 3.5em;
+    padding: 0.2em;
+    color: white;
+}
+
+main p {
+    font-size: 2em;
+    color: white;
+    padding: 0.2em;
+}
+
+main li {
+    font-size: 2em;
+    color: white;
+    padding: 0.2em;
+}
+
+main section:nth-child(odd) {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 2em;
+    margin: 2em 0;
+}
+
+main section:nth-child(even) {
+    padding: 4em 0;
+}
+
+main section:nth-child(even) h3,
+main section:nth-child(even) p,
+main section:nth-child(even) li,
+main section:nth-child(even) h2 {
+    color: black;
+}
+
+main section:nth-child(even)>div {
+    flex-direction: row-reverse;
+    border-top: 1px solid black;
+    padding: 3.5em 0;
+}
+
+main section:nth-child(even)>div>div {
+    padding-right: 2em;
+}
+
+section li {
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+section li:hover {
+    transition: background-color 1s ease-in-out 0.3s;
+    background-color: rgba(152, 251, 152, 0.8);
+}
+
+section li a {
+    text-align: center;
+    color: white;
+}
+
+/*Ende Content*/
+/*Anfange Footer*/
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+/*Ende Footer*/
+/*Anfang Media Queries*/
+@media screen and (max-width: 1024px) {
+    .headerSchriftzug h1 {
+        font-size: 9em;
+    }
+
+    .fab,
+    .fas {
+        font-size: 3em;
+    }
+
+    main h2 {
+        font-size: 3em;
+    }
+
+    main h3 {
+        font-size: 2em;
+    }
+
+    main p {
+        font-size: 1em;
+    }
+
+    main li {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .headerSchriftzug h1 {
+        font-size: 7em;
+    }
+
+    .fab,
+    .fas {
+        font-size: 2em;
+    }
+
+}
+
+main h3 {
+    font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav {
+        justify-content: center;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .headerSchriftzug h1 {
+        font-size: 3.5em;
+    }
+
+    .fab,
+    .fas {
+        font-size: 1.5em;
+    }
+
+    .flexDiv {
+        flex-direction: column;
+    }
+
+    main section:nth-child(even)>div {
+        flex-direction: column;
+        padding: 2em;
+    }
+
+    #ersterLinkerContent {
+        padding: 0;
+    }
+
+    main section:nth-child(even)>div>div {
+        padding-bottom: 2em;
+    }
+
+    .linkerContent {
+        padding-bottom: 2em;
+    }
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    audio {
+        width: 80vw;
+    }
+}
+
+/*Ende Media Queries*/
+/*Start Anpassung Unterseiten*/
+#h2Formular {
+    padding: 0;
+}
