@@ -1,4 +1,4 @@
-const url = "http://localhost:8100";
+const url = "https://abgabepaulphillip.herokuapp.com";
 
 
 function displayMessage(type: string, message: string){
