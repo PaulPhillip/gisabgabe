@@ -78,7 +78,7 @@ function login(evt) {
                         window.location.assign("main.html");
                     }
                     else {
-                        displayMessage(response.status, response.errorMessage);
+                        displayMessage(response.status, response.message);
                     }
                     return [2 /*return*/];
             }

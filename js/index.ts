@@ -39,7 +39,7 @@ async function login(evt: MouseEvent){
         window.location.assign("main.html");
     }
     else{
-        displayMessage(response.status, response.errorMessage);
+        displayMessage(response.status, response.message);
     }
 }
 
