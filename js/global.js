@@ -1,5 +1,5 @@
 "use strict";
-var url = "http://localhost:8100";
+var url = "https://abgabepaulphillip.herokuapp.com";
 function displayMessage(type, message) {
     var field = document.getElementById("message-field");
     if (!field) {
