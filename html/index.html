@@ -12,38 +12,35 @@
   <nav>
     <ul class="menu">
         <label for="uname"><b>Username</b></label>
-        <input type="text" placeholder="Enter Username" name="uname" >
+        <input type="text" placeholder="Enter Username" name="uname" id="uname" >
     
         <label for="psw"><b>Password</b></label>
-        <input type="password" placeholder="Enter Password" name="psw" >
+        <input type="password" placeholder="Enter Password" name="psw" id="psw" >
     
-        <button class="button-nav" type="submit">Login </button>
+        <button class="button-nav" type="submit" id="login">Login </button>
     </ul>
   </nav> 
   <header>
-       
+       <div id="message-field"></div>
   </header>
   <main>
     <section>
         <h2 class="regUeber">Registrierung</h2>
-        <form>
-            <input type="text" id="name" name="name" placeholder="Vorname"><br>
+        <form>      
+            <input type="text" id="reg-uname" name="reg-uname" placeholder="Username"><br>
       
-            <input type="text" id="surName" name="surName" placeholder="Nachname"><br>
+            <input type="text" id="reg-eMail" name="eMail" placeholder="E-Mail"><br>
       
-            <input type="text" id="eMail" name="eMail" placeholder="E-Mail"><br>
+            <input type="text" id="reg-degreeCourse" name="degreeCourse" placeholder="Studiengang"><br>
       
-            <input type="text" id="degreeCourse" name="degreeCourse" placeholder="Studiengang"><br>
-      
-            <input type="text" id="semester" name="semester"  placeholder="Fachsemester"><br> 
+            <input type="text" id="reg-semester" name="semester"  placeholder="Fachsemester"><br> 
        
-            <input type="password" id="password" name="password" placeholder="Passwort"><br>
+            <input type="password" id="reg-password" name="password" placeholder="Passwort"><br>
+            <input type="password" id="reg-password-repeat" name="password-repeat" placeholder="Passwort wiederholen"><br>
             <input type="button" value="Registrieren" id="register">
           </form>
       </div>    
-    </section>
-    <section>
-      
+    </section>      
       
   </main>
   <footer>
@@ -54,6 +51,7 @@
       </p>
     </div>
   </footer>  
-    
+    <script src="../js/global.js"></script>
+    <script src="../js/index.js"></script>
   </body>
 </html>

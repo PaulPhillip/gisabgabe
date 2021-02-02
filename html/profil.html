@@ -19,16 +19,14 @@
           </ul>
     </nav> 
     <header>
-         
+      <div id="message-field"></div>
     </header>
     <main>
       <section>
           <h2 class="regUeber">Profil</h2>
           <form>
-              <input type="text" id="name" name="name" placeholder="Vorname"><br>
-        
-              <input type="text" id="surName" name="surName" placeholder="Nachname"><br>
-        
+              <input type="text" id="username" name="name" placeholder="Username" disabled><br>
+                
               <input type="text" id="eMail" name="eMail" placeholder="E-Mail"><br>
         
               <input type="text" id="degreeCourse" name="degreeCourse" placeholder="Studiengang"><br>
@@ -36,11 +34,11 @@
               <input type="text" id="semester" name="semester"  placeholder="Fachsemester"><br> 
          
               <input type="password" id="password" name="password" placeholder="Passwort"><br>
+              <input type="password" id="password-repeat" name="password" placeholder="Passwort"><br>
               <input type="button" id="profilSet" value="Profil ändern" >
             </form>
         </div>    
       </section>
-      <section>
         
         
     </main>
@@ -52,7 +50,8 @@
         </p>
       </div>
     </footer>  
-      
+    <script src="../js/global.js"></script>
+    <script src="../js/profil.js"></script>
     </body>
 
 </html>
