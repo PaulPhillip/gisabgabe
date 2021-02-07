@@ -76,6 +76,8 @@ form {
 
 .post-text{
     color: black;
+    font-size: 1.5em;
+    padding: 2em 0;
 }
 
 .post{
@@ -263,6 +265,7 @@ main h2 {
     padding: 0.5em;
     color: white;
     text-align: center;
+    font-size: 3em;
 }
 
 main h3 {
