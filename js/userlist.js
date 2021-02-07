@@ -35,7 +35,7 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
-var userListDiv = document.getElementById("list");
+var userListDiv = document.getElementById("liste");
 function renderUserlist() {
     return __awaiter(this, void 0, void 0, function () {
         var user, urlparams, result, response, allUsers, followedUsers, _loop_1, _i, allUsers_1, user_1;
