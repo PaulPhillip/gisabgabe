@@ -70,8 +70,18 @@ form {
     text-align: center;
 }
 
+.post-username{
+    font-size: 2em;
+}
+
+.post-text{
+    color: black;
+}
+
 .post{
     text-align: center;
+    margin: 2em 0;
+    background-color: white;
 }
 
 
@@ -262,7 +272,7 @@ main h3 {
 }
 
 main p {
-    font-size: 2em;
+    font-size: 3em;
     color: white;
     padding: 0.2em;
 }
